@@ -1,0 +1,98 @@
+[
+  {
+    "objectID": "docs/index.html",
+    "href": "docs/index.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Welcome to the my-first-graft graft. This template combines a uv-managed Python package with Quarto documentation and Jupyter notebooks.\n\n\n\nPython package: uv-managed project at src/my_first_graft/\nDocumentation: Quarto site with navbar and sidebar navigation\nPre-rendered notebooks: Jupyter notebooks demonstrating package usage\nExample code: Simple helpers including greet and show_dataframe\n\n\n\n\nInstall dependencies and render the documentation:\nuv sync\nuv run quarto render --no-execute\nPreview the site:\nmake preview\n# or manually: open _site/index.html\n\n\n\nImport and use the package in your Python code:\nfrom my_first_graft import greet, show_dataframe\ngreet(\"Quarto\")\n\nshow_dataframe()\nFor a complete example, see notebook.ipynb.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "docs/index.html#whats-included",
+    "href": "docs/index.html#whats-included",
+    "title": "Overview",
+    "section": "",
+    "text": "Python package: uv-managed project at src/my_first_graft/\nDocumentation: Quarto site with navbar and sidebar navigation\nPre-rendered notebooks: Jupyter notebooks demonstrating package usage\nExample code: Simple helpers including greet and show_dataframe",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "docs/index.html#quick-start",
+    "href": "docs/index.html#quick-start",
+    "title": "Overview",
+    "section": "",
+    "text": "Install dependencies and render the documentation:\nuv sync\nuv run quarto render --no-execute\nPreview the site:\nmake preview\n# or manually: open _site/index.html",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "docs/index.html#using-the-package",
+    "href": "docs/index.html#using-the-package",
+    "title": "Overview",
+    "section": "",
+    "text": "Import and use the package in your Python code:\nfrom my_first_graft import greet, show_dataframe\ngreet(\"Quarto\")\n\nshow_dataframe()\nFor a complete example, see notebook.ipynb.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "docs/notebook copy.html",
+    "href": "docs/notebook copy.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\nshow_dataframe()"
+  },
+  {
+    "objectID": "docs/notebook copy 6.html",
+    "href": "docs/notebook copy 6.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\nshow_dataframe()"
+  },
+  {
+    "objectID": "docs/notebook copy 4.html",
+    "href": "docs/notebook copy 4.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\nshow_dataframe()"
+  },
+  {
+    "objectID": "docs/notebook copy 2.html",
+    "href": "docs/notebook copy 2.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\nshow_dataframe()"
+  },
+  {
+    "objectID": "docs/notebook copy 3.html",
+    "href": "docs/notebook copy 3.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\nshow_dataframe()"
+  },
+  {
+    "objectID": "docs/notebook copy 5.html",
+    "href": "docs/notebook copy 5.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\nshow_dataframe()"
+  },
+  {
+    "objectID": "docs/notebook copy 7.html",
+    "href": "docs/notebook copy 7.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\nshow_dataframe()"
+  },
+  {
+    "objectID": "docs/notebook.html",
+    "href": "docs/notebook.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\nshow_dataframe()"
+  }
+]

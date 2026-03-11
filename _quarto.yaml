@@ -8,17 +8,18 @@ project:
 
 website:
   title: "my-first-graft"
-  navbar:
-    left:
-      - text: "Overview"
-        href: docs/index.qmd
-      - text: "Jupyter Notebook"
-        href: docs/notebook.ipynb
   sidebar:
     style: floating
     contents:
       - href: docs/index.qmd
       - href: docs/notebook.ipynb
+      - href: docs/notebook copy.ipynb
+      - href: docs/notebook copy 2.ipynb
+      - href: docs/notebook copy 3.ipynb
+      - href: docs/notebook copy 4.ipynb
+      - href: docs/notebook copy 5.ipynb
+      - href: docs/notebook copy 6.ipynb
+      - href: docs/notebook copy 7.ipynb
 
 format:
   html:
