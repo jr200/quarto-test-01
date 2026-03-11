@@ -3,8 +3,8 @@ project:
   output-dir: _site
   resources:
   - docs/favicon.svg
-  - .grafts-cache/build/my-first-graft/**/*.html
-
+  - dist/my-first-graft/**/*.html
+  - dist/second-graft/**/*.html
 filters:
 - docs/site-build.lua
 
@@ -41,15 +41,15 @@ website:
       - _GRAFT_COLLAR: main
       - section: my-first-graft
         contents:
-        - href: .grafts-cache/build/my-first-graft/docs/index.qmd
-        - href: .grafts-cache/build/my-first-graft/docs/notebook.ipynb
-        - href: .grafts-cache/build/my-first-graft/docs/notebook copy.ipynb
-        - href: .grafts-cache/build/my-first-graft/docs/notebook copy 2.ipynb
-        - href: .grafts-cache/build/my-first-graft/docs/notebook copy 3.ipynb
-        - href: .grafts-cache/build/my-first-graft/docs/notebook copy 4.ipynb
-        - href: .grafts-cache/build/my-first-graft/docs/notebook copy 5.ipynb
-        - href: .grafts-cache/build/my-first-graft/docs/notebook copy 6.ipynb
-        - href: .grafts-cache/build/my-first-graft/docs/notebook copy 7.ipynb
+        - href: dist/my-first-graft/docs/index.html
+        - href: dist/my-first-graft/docs/notebook.html
+        - href: dist/my-first-graft/docs/notebook copy.html
+        - href: dist/my-first-graft/docs/notebook copy 2.html
+        - href: dist/my-first-graft/docs/notebook copy 3.html
+        - href: dist/my-first-graft/docs/notebook copy 4.html
+        - href: dist/my-first-graft/docs/notebook copy 5.html
+        - href: dist/my-first-graft/docs/notebook copy 6.html
+        - href: dist/my-first-graft/docs/notebook copy 7.html
         _autogen_branch: graft/my-first-graft
     - section: Notes
       contents:
@@ -59,8 +59,10 @@ website:
       - _GRAFT_COLLAR: bugs
       - section: second-graft
         contents:
-        - .grafts-cache/build/second-graft/docs/index.qmd
-        - .grafts-cache/build/second-graft/docs/app.qmd
+        - text: Index
+          href: dist/second-graft/docs/index.html
+        - text: App
+          href: dist/second-graft/docs/app.html
         _autogen_branch: graft/second-graft
     - docs/guards/footer.qmd
 
