@@ -31,3 +31,6 @@ branches:
 #
 # Available collars are defined in _quarto.yaml as _GRAFT_COLLAR markers.
 # Common collars: main, notes, bugs
+- name: second-graft
+  branch: graft/second-graft
+  collar: bugs

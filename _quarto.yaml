@@ -4,6 +4,7 @@ project:
   resources:
   - docs/favicon.svg
 
+  - .grafts-cache/build/my-first-graft/**/*.html
 filters:
 - docs/site-build.lua
 
@@ -38,9 +39,26 @@ website:
     - section: My Grafts
       contents:
       - _GRAFT_COLLAR: main
+      - section: my-first-graft
+        contents:
+        - href: .grafts-cache/build/my-first-graft/docs/index.html
+        - href: .grafts-cache/build/my-first-graft/docs/notebook.html
+        - href: .grafts-cache/build/my-first-graft/docs/notebook copy.html
+        - href: .grafts-cache/build/my-first-graft/docs/notebook copy 2.html
+        - href: .grafts-cache/build/my-first-graft/docs/notebook copy 3.html
+        - href: .grafts-cache/build/my-first-graft/docs/notebook copy 4.html
+        - href: .grafts-cache/build/my-first-graft/docs/notebook copy 5.html
+        - href: .grafts-cache/build/my-first-graft/docs/notebook copy 6.html
+        - href: .grafts-cache/build/my-first-graft/docs/notebook copy 7.html
+        _autogen_branch: graft/my-first-graft
     - section: Notes
       contents:
       - _GRAFT_COLLAR: notes
+      - section: demo2
+        contents:
+        - .grafts-cache/build/demo2/docs/index.qmd
+        - .grafts-cache/build/demo2/docs/app.qmd
+        _autogen_branch: graft/demo2
     - section: Bugs
       contents:
       - _GRAFT_COLLAR: bugs
