@@ -1,0 +1,10 @@
+[project]
+name = "quarto-test-01"
+version = "0.0.0"
+description = "Quarto trunk site for quarto-test-01"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "quarto-cli>=1.8.26",
+    "quarto-graft",
+]
