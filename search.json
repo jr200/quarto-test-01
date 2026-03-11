@@ -1,18 +1,5 @@
 [
   {
-    "objectID": "dist/my-first-graft/docs/notebook copy 7.html",
-    "href": "dist/my-first-graft/docs/notebook copy 7.html",
-    "title": "Jupyter Example 07",
-    "section": "",
-    "text": "Quick check that the graft package imports and runs.\n\n\nShow the code\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\n\n\nShow the code\nshow_dataframe()",
-    "crumbs": [
-      "Overview",
-      "My Grafts",
-      "my-first-graft",
-      "Jupyter Example 07"
-    ]
-  },
-  {
     "objectID": "docs/guards/header.html",
     "href": "docs/guards/header.html",
     "title": "Header",
@@ -54,19 +41,6 @@
     "crumbs": [
       "Overview",
       "Footer"
-    ]
-  },
-  {
-    "objectID": "dist/my-first-graft/docs/notebook copy 6.html",
-    "href": "dist/my-first-graft/docs/notebook copy 6.html",
-    "title": "Jupyter Example 01",
-    "section": "",
-    "text": "Quick check that the graft package imports and runs.\n\n\nShow the code\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\n\n\nShow the code\nshow_dataframe()",
-    "crumbs": [
-      "Overview",
-      "My Grafts",
-      "my-first-graft",
-      "Jupyter Example 01"
     ]
   }
 ]
