@@ -1,0 +1,111 @@
+[
+  {
+    "objectID": "grafts__/my-first-graft/docs/notebook.html",
+    "href": "grafts__/my-first-graft/docs/notebook.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\n\nShow the code\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\n\n\nShow the code\nshow_dataframe()",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Jupyter Example"
+    ]
+  },
+  {
+    "objectID": "docs/guards/header.html",
+    "href": "docs/guards/header.html",
+    "title": "Header",
+    "section": "",
+    "text": "Header\nExample sub-section.",
+    "crumbs": [
+      "Overview",
+      "Header"
+    ]
+  },
+  {
+    "objectID": "docs/index.html",
+    "href": "docs/index.html",
+    "title": "quarto-test-01",
+    "section": "",
+    "text": "Welcome to your Quarto Graft trunk! This page has three graft collars (insertion points where you can attach content from separate graft documents):\n\nmain - “My Grafts” section\nnotes - Notes\nbugs - Bugs\n\n\n\nCreate your first graft and add it to one of the collars above by referencing its collar name.\nquarto-graft graft create\nHappy writing!\nCreated with quarto-graft.",
+    "crumbs": [
+      "Overview",
+      "quarto-test-01"
+    ]
+  },
+  {
+    "objectID": "docs/index.html#get-started",
+    "href": "docs/index.html#get-started",
+    "title": "quarto-test-01",
+    "section": "",
+    "text": "Create your first graft and add it to one of the collars above by referencing its collar name.\nquarto-graft graft create\nHappy writing!\nCreated with quarto-graft.",
+    "crumbs": [
+      "Overview",
+      "quarto-test-01"
+    ]
+  },
+  {
+    "objectID": "docs/guards/footer.html",
+    "href": "docs/guards/footer.html",
+    "title": "Footer",
+    "section": "",
+    "text": "Footer\nExample sub-section.",
+    "crumbs": [
+      "Overview",
+      "Footer"
+    ]
+  },
+  {
+    "objectID": "grafts__/my-first-graft/docs/index.html",
+    "href": "grafts__/my-first-graft/docs/index.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Welcome to the my-first-graft graft. This template combines a uv-managed Python package with Quarto documentation and Jupyter notebooks.\n\n\n\nPython package: uv-managed project at src/my_first_graft/\nDocumentation: Quarto site with navbar and sidebar navigation\nPre-rendered notebooks: Jupyter notebooks demonstrating package usage\nExample code: Simple helpers including greet and show_dataframe\n\n\n\n\nInstall dependencies and render the documentation:\nuv sync\nuv run quarto render --no-execute\nPreview the site:\nmake preview\n# or manually: open _site/index.html\n\n\n\nImport and use the package in your Python code:\nfrom my_first_graft import greet, show_dataframe\ngreet(\"Quarto\")\n\nshow_dataframe()\nFor a complete example, see notebook.ipynb.",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "grafts__/my-first-graft/docs/index.html#whats-included",
+    "href": "grafts__/my-first-graft/docs/index.html#whats-included",
+    "title": "Overview",
+    "section": "",
+    "text": "Python package: uv-managed project at src/my_first_graft/\nDocumentation: Quarto site with navbar and sidebar navigation\nPre-rendered notebooks: Jupyter notebooks demonstrating package usage\nExample code: Simple helpers including greet and show_dataframe",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "grafts__/my-first-graft/docs/index.html#quick-start",
+    "href": "grafts__/my-first-graft/docs/index.html#quick-start",
+    "title": "Overview",
+    "section": "",
+    "text": "Install dependencies and render the documentation:\nuv sync\nuv run quarto render --no-execute\nPreview the site:\nmake preview\n# or manually: open _site/index.html",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "grafts__/my-first-graft/docs/index.html#using-the-package",
+    "href": "grafts__/my-first-graft/docs/index.html#using-the-package",
+    "title": "Overview",
+    "section": "",
+    "text": "Import and use the package in your Python code:\nfrom my_first_graft import greet, show_dataframe\ngreet(\"Quarto\")\n\nshow_dataframe()\nFor a complete example, see notebook.ipynb.",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Overview"
+    ]
+  }
+]
