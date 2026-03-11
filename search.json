@@ -1,13 +1,169 @@
 [
   {
-    "objectID": "docs/guards/header.html",
-    "href": "docs/guards/header.html",
-    "title": "Header",
+    "objectID": "dist/my-first-graft/docs/notebook copy 7.html",
+    "href": "dist/my-first-graft/docs/notebook copy 7.html",
+    "title": "Jupyter Example",
     "section": "",
-    "text": "Header\nExample sub-section.",
+    "text": "Quick check that the graft package imports and runs.\n\n\nShow the code\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\n\n\nShow the code\nshow_dataframe()",
     "crumbs": [
       "Overview",
-      "Header"
+      "My Grafts",
+      "my-first-graft",
+      "Jupyter Example"
+    ]
+  },
+  {
+    "objectID": "dist/my-first-graft/docs/notebook copy.html",
+    "href": "dist/my-first-graft/docs/notebook copy.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\n\nShow the code\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\n\n\nShow the code\nshow_dataframe()",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Jupyter Example"
+    ]
+  },
+  {
+    "objectID": "dist/my-first-graft/docs/notebook copy 6.html",
+    "href": "dist/my-first-graft/docs/notebook copy 6.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\n\nShow the code\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\n\n\nShow the code\nshow_dataframe()",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Jupyter Example"
+    ]
+  },
+  {
+    "objectID": "dist/my-first-graft/docs/notebook copy 4.html",
+    "href": "dist/my-first-graft/docs/notebook copy 4.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\n\nShow the code\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\n\n\nShow the code\nshow_dataframe()",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Jupyter Example"
+    ]
+  },
+  {
+    "objectID": "dist/my-first-graft/docs/index.html",
+    "href": "dist/my-first-graft/docs/index.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Welcome to the my-first-graft graft. This template combines a uv-managed Python package with Quarto documentation and Jupyter notebooks.\n\n\n\nPython package: uv-managed project at src/my_first_graft/\nDocumentation: Quarto site with navbar and sidebar navigation\nPre-rendered notebooks: Jupyter notebooks demonstrating package usage\nExample code: Simple helpers including greet and show_dataframe\n\n\n\n\nInstall dependencies and render the documentation:\nuv sync\nuv run quarto render --no-execute\nPreview the site:\nmake preview\n# or manually: open _site/index.html\n\n\n\nImport and use the package in your Python code:\nfrom my_first_graft import greet, show_dataframe\ngreet(\"Quarto\")\n\nshow_dataframe()\nFor a complete example, see notebook.ipynb.",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "dist/my-first-graft/docs/index.html#whats-included",
+    "href": "dist/my-first-graft/docs/index.html#whats-included",
+    "title": "Overview",
+    "section": "",
+    "text": "Python package: uv-managed project at src/my_first_graft/\nDocumentation: Quarto site with navbar and sidebar navigation\nPre-rendered notebooks: Jupyter notebooks demonstrating package usage\nExample code: Simple helpers including greet and show_dataframe",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "dist/my-first-graft/docs/index.html#quick-start",
+    "href": "dist/my-first-graft/docs/index.html#quick-start",
+    "title": "Overview",
+    "section": "",
+    "text": "Install dependencies and render the documentation:\nuv sync\nuv run quarto render --no-execute\nPreview the site:\nmake preview\n# or manually: open _site/index.html",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "dist/my-first-graft/docs/index.html#using-the-package",
+    "href": "dist/my-first-graft/docs/index.html#using-the-package",
+    "title": "Overview",
+    "section": "",
+    "text": "Import and use the package in your Python code:\nfrom my_first_graft import greet, show_dataframe\ngreet(\"Quarto\")\n\nshow_dataframe()\nFor a complete example, see notebook.ipynb.",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "dist/second-graft/docs/index.html",
+    "href": "dist/second-graft/docs/index.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Welcome to the second-graft graft. This template combines a uv-managed Python package with Quarto documentation and marimo notebooks.\n\n\n\nPython package: uv-managed project at src/second_graft/\nDocumentation: Quarto site with navbar and sidebar navigation\nInteractive notebooks: marimo notebooks demonstrating package usage\nExample code: Simple greet helper to get you started\n\n\n\n\nInstall dependencies and render the documentation:\nuv sync\nuv run quarto render --no-execute\nPreview the site:\nmake preview\n# or manually: open _site/index.html\n\n\n\nImport and use the package in your Python code:\nfrom second_graft import greet\ngreet(\"Quarto\")\nFor interactive examples, see the marimo notebooks in the docs/ directory.",
+    "crumbs": [
+      "Overview",
+      "Bugs",
+      "second-graft",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "dist/second-graft/docs/index.html#whats-included",
+    "href": "dist/second-graft/docs/index.html#whats-included",
+    "title": "Overview",
+    "section": "",
+    "text": "Python package: uv-managed project at src/second_graft/\nDocumentation: Quarto site with navbar and sidebar navigation\nInteractive notebooks: marimo notebooks demonstrating package usage\nExample code: Simple greet helper to get you started",
+    "crumbs": [
+      "Overview",
+      "Bugs",
+      "second-graft",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "dist/second-graft/docs/index.html#quick-start",
+    "href": "dist/second-graft/docs/index.html#quick-start",
+    "title": "Overview",
+    "section": "",
+    "text": "Install dependencies and render the documentation:\nuv sync\nuv run quarto render --no-execute\nPreview the site:\nmake preview\n# or manually: open _site/index.html",
+    "crumbs": [
+      "Overview",
+      "Bugs",
+      "second-graft",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "dist/second-graft/docs/index.html#using-the-package",
+    "href": "dist/second-graft/docs/index.html#using-the-package",
+    "title": "Overview",
+    "section": "",
+    "text": "Import and use the package in your Python code:\nfrom second_graft import greet\ngreet(\"Quarto\")\nFor interactive examples, see the marimo notebooks in the docs/ directory.",
+    "crumbs": [
+      "Overview",
+      "Bugs",
+      "second-graft",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "docs/guards/footer.html",
+    "href": "docs/guards/footer.html",
+    "title": "Footer",
+    "section": "",
+    "text": "Footer\nExample sub-section.",
+    "crumbs": [
+      "Overview",
+      "Footer"
     ]
   },
   {
@@ -33,14 +189,79 @@
     ]
   },
   {
-    "objectID": "docs/guards/footer.html",
-    "href": "docs/guards/footer.html",
-    "title": "Footer",
+    "objectID": "docs/guards/header.html",
+    "href": "docs/guards/header.html",
+    "title": "Header",
     "section": "",
-    "text": "Footer\nExample sub-section.",
+    "text": "Header\nExample sub-section.",
     "crumbs": [
       "Overview",
-      "Footer"
+      "Header"
+    ]
+  },
+  {
+    "objectID": "dist/second-graft/docs/app.html",
+    "href": "dist/second-graft/docs/app.html",
+    "title": "Marimo App",
+    "section": "",
+    "text": "This is a demo page showing the marimo ui slider.\nslider = mo.ui.slider(start=1, stop=10, step=1, include_input=True)\nslider\n\nmo.md(\n    f\"\"\"\n    The `marimo.ui` module has a library of pre-built elements.\n\n    For example, here's a `slider`: {slider}\n    \"\"\"\n)\nmo.md(f\"and here's its value: **{slider.value}**.\")\nimport marimo as mo",
+    "crumbs": [
+      "Overview",
+      "Bugs",
+      "second-graft",
+      "Marimo App"
+    ]
+  },
+  {
+    "objectID": "dist/my-first-graft/docs/notebook copy 3.html",
+    "href": "dist/my-first-graft/docs/notebook copy 3.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\n\nShow the code\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\n\n\nShow the code\nshow_dataframe()",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Jupyter Example"
+    ]
+  },
+  {
+    "objectID": "dist/my-first-graft/docs/notebook.html",
+    "href": "dist/my-first-graft/docs/notebook.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\n\nShow the code\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\n\n\nShow the code\nshow_dataframe()",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Jupyter Example"
+    ]
+  },
+  {
+    "objectID": "dist/my-first-graft/docs/notebook copy 5.html",
+    "href": "dist/my-first-graft/docs/notebook copy 5.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\n\nShow the code\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\n\n\nShow the code\nshow_dataframe()",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Jupyter Example"
+    ]
+  },
+  {
+    "objectID": "dist/my-first-graft/docs/notebook copy 2.html",
+    "href": "dist/my-first-graft/docs/notebook copy 2.html",
+    "title": "Jupyter Example",
+    "section": "",
+    "text": "Quick check that the graft package imports and runs.\n\n\nShow the code\nfrom my_first_graft import greet, show_dataframe\n\ngreet(\"branch builder\")\n\n\n\n\nShow the code\nshow_dataframe()",
+    "crumbs": [
+      "Overview",
+      "My Grafts",
+      "my-first-graft",
+      "Jupyter Example"
     ]
   }
 ]
