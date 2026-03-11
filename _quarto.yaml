@@ -42,14 +42,21 @@ website:
       - section: my-first-graft
         contents:
         - href: dist/my-first-graft/docs/index.html
+          text: Index
         - href: dist/my-first-graft/docs/notebook.html
+          text: Notebook
         - href: dist/my-first-graft/docs/notebook copy.html
+          text: Notebook Copy
         - href: dist/my-first-graft/docs/notebook copy 2.html
+          text: Notebook Copy 2
         - href: dist/my-first-graft/docs/notebook copy 3.html
+          text: Notebook Copy 3
         - href: dist/my-first-graft/docs/notebook copy 4.html
+          text: Notebook Copy 4
         - href: dist/my-first-graft/docs/notebook copy 5.html
-        - href: dist/my-first-graft/docs/notebook copy 6.html
-        - href: dist/my-first-graft/docs/notebook copy 7.html
+          text: Notebook Copy 5
+        - href: dist/my-first-graft/docs/notebook copy 6.ipynb
+        - href: dist/my-first-graft/docs/notebook copy 7.ipynb
         _autogen_branch: graft/my-first-graft
     - section: Notes
       contents:

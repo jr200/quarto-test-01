@@ -798,7 +798,7 @@ wheels = [
 
 [[package]]
 name = "jupyterlab"
-version = "4.5.5"
+version = "4.5.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "async-lru" },
@@ -815,9 +815,9 @@ dependencies = [
     { name = "tornado" },
     { name = "traitlets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6e/2d/953a5612a34a3c799a62566a548e711d103f631672fd49650e0f2de80870/jupyterlab-4.5.5.tar.gz", hash = "sha256:eac620698c59eb810e1729909be418d9373d18137cac66637141abba613b3fda", size = 23968441, upload-time = "2026-02-23T18:57:34.339Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ac/d5/730628e03fff2e8a8e8ccdaedde1489ab1309f9a4fa2536248884e30b7c7/jupyterlab-4.5.6.tar.gz", hash = "sha256:642fe2cfe7f0f5922a8a558ba7a0d246c7bc133b708dfe43f7b3a826d163cf42", size = 23970670, upload-time = "2026-03-11T14:17:04.531Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b9/52/372d3494766d690dfdd286871bf5f7fb9a6c61f7566ccaa7153a163dd1df/jupyterlab-4.5.5-py3-none-any.whl", hash = "sha256:a35694a40a8e7f2e82f387472af24e61b22adcce87b5a8ab97a5d9c486202a6d", size = 12446824, upload-time = "2026-02-23T18:57:30.398Z" },
+    { url = "https://files.pythonhosted.org/packages/e1/1b/dad6fdcc658ed7af26fdf3841e7394072c9549a8b896c381ab49dd11e2d9/jupyterlab-4.5.6-py3-none-any.whl", hash = "sha256:d6b3dac883aa4d9993348e0f8e95b24624f75099aed64eab6a4351a9cdd1e580", size = 12447124, upload-time = "2026-03-11T14:17:00.229Z" },
 ]
 
 [[package]]
@@ -1447,7 +1447,7 @@ dependencies = [
 
 [[package]]
 name = "quarto-graft"
-version = "0.1.8"
+version = "0.1.9"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jinja2" },
@@ -1457,9 +1457,9 @@ dependencies = [
     { name = "ruamel-yaml" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/9e/31/d6d18e2845fcc03197bb890594d83a2a634ed57dd9d4be785f9371a8b5f6/quarto_graft-0.1.8.tar.gz", hash = "sha256:93d257675a249e53a0b40b143c289e1ae2cfe7fd28a6feb46a45fa58f0810f9e", size = 759959, upload-time = "2026-03-11T14:17:04.413Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/80/7e/0542bf20f8af38ae00d5afd885192bc2cca7dff2fe6c929ef66af361cd3c/quarto_graft-0.1.9.tar.gz", hash = "sha256:48a3cce365c84dd8c87f051af84b01f24c3b4bd486b86e213e6cafec14bbccac", size = 759990, upload-time = "2026-03-11T14:55:16.321Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ef/b1/61007a24af5522edf5370002c2623fae9ce2b50c285cff163d19e2c53738/quarto_graft-0.1.8-py3-none-any.whl", hash = "sha256:6998d479d4b6309b80d0d84c453e6b11aefd0e58be927753038933a53d65a8a7", size = 782484, upload-time = "2026-03-11T14:17:05.604Z" },
+    { url = "https://files.pythonhosted.org/packages/f2/1c/f7d6b6895db68d5d4d766e6b07d7ec53f38292eae5944ac2ef2d0ff71085/quarto_graft-0.1.9-py3-none-any.whl", hash = "sha256:1cb928d1fcb0e913b6654789f005440c6991e56a7e54230d2803ccb7ed2398d4", size = 782539, upload-time = "2026-03-11T14:55:17.564Z" },
 ]
 
 [[package]]
