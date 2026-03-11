@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Marimo
+__marimo__/
+
+# IDE
+.history/
+*.swp
+*.bak
+
+# Type checkers
+.mypy_cache/
+.ruff_cache/
+
+# Quarto documentation
+_site/
+.quarto/
+_freeze/
+.jupyter_cache/
+**/.jupyter_cache/
+**/*.quarto_ipynb
