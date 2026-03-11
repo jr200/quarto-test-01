@@ -20,7 +20,10 @@ templates:
   # - github: user/repo
   #   ref: v1.0.0
 
-branches: []
+branches:
+- name: my-first-graft
+  branch: graft/my-first-graft
+  collar: main
 # Example branch entry (uncomment and modify to add grafts):
 # - name: demo1
 #   branch: graft/demo1
