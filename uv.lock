@@ -1447,7 +1447,7 @@ dependencies = [
 
 [[package]]
 name = "quarto-graft"
-version = "0.1.7"
+version = "0.1.8"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jinja2" },
@@ -1457,9 +1457,9 @@ dependencies = [
     { name = "ruamel-yaml" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e3/22/38b6394e4130a6d8da2a8bf15ec23c163524c3af623e2c0cec6c21a94ace/quarto_graft-0.1.7.tar.gz", hash = "sha256:8ae303efdb3dcb0f257b61e9c738267eb1c6c70d6a5c14246a0760e02d3dc43c", size = 759662, upload-time = "2026-03-11T13:48:36.73Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9e/31/d6d18e2845fcc03197bb890594d83a2a634ed57dd9d4be785f9371a8b5f6/quarto_graft-0.1.8.tar.gz", hash = "sha256:93d257675a249e53a0b40b143c289e1ae2cfe7fd28a6feb46a45fa58f0810f9e", size = 759959, upload-time = "2026-03-11T14:17:04.413Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/db/7d/6b3bbad98b27e283b1e4f8b14cedcfd7ca188b844a21100214ec2e7d11f0/quarto_graft-0.1.7-py3-none-any.whl", hash = "sha256:5a35d5337966e08c0982ed8434e8257651aa77a47da11e70fbcf1506c417ed07", size = 782249, upload-time = "2026-03-11T13:48:38.121Z" },
+    { url = "https://files.pythonhosted.org/packages/ef/b1/61007a24af5522edf5370002c2623fae9ce2b50c285cff163d19e2c53738/quarto_graft-0.1.8-py3-none-any.whl", hash = "sha256:6998d479d4b6309b80d0d84c453e6b11aefd0e58be927753038933a53d65a8a7", size = 782484, upload-time = "2026-03-11T14:17:05.604Z" },
 ]
 
 [[package]]
